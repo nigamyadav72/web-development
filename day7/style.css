@@ -1,0 +1,33 @@
+*{
+    background-color: red;
+    margin: 0px;
+    padding: 0px;
+}
+h4{
+    color:rgb(28, 50, 219);
+    font-size: 20px;
+    opacity: 0.3;
+    font-family: cursive;
+}
+#hello{
+    color: rgb(28, 231, 6);
+    font-size: larger;
+    border: 2px solid rgba(0, 0, 0, 0.79);
+    padding: 10px;
+    
+}
+.test{
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+}
+#Log{
+
+background-color: orange;
+border: 0cm solid black;
+padding: 5px;
+margin: 20px;
+
+}

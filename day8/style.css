@@ -1,0 +1,40 @@
+.container {
+  height: 100vh;
+  
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row; /*yeha hamle flex-direction use garim yesko value default ma row nai hunxa but column rakhim bhane yesle y-axis lai main axis banai dinxa*/
+    justify-content:flex-end; /*control+space use garera option haru herna milxa yeha justify content le main axis ma khelauxa div lai */
+    gap: 6px;
+    /* align-items: flex-end; */
+
+}
+/* .container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+} yeslai use garera auta item lai centre ma lyauna milxa */
+.item {
+  background-color: red;
+  height: 200px;
+  width: 250px;
+  margin-bottom: 2px;
+}
+.item1{
+    background-color: blue;
+    /* align-self: center; */
+    /* flex-grow: 1; */
+    /* flex-shrink:0 ; */
+    /* flex-basis: 10; */
+
+}
+ul{
+    list-style-type: none;
+    background-color: blueviolet;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
