@@ -1,0 +1,21 @@
+.div1{
+    background-color: red;
+}
+.div2{
+    background-color: yellow;
+}
+.div3{
+    background-color: blue;
+}
+p{
+    background-color: aqua;
+    height: 200px;
+}
+span{
+    background-color: green;
+    display: inline-block;
+    height: 200px;
+}
+p::after{
+    content: "Hello";
+}
