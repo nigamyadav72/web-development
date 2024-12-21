@@ -29,10 +29,12 @@ nav ul{
     display: flex;
     justify-content: space-around;
     font-size: 2rem;
+    padding-top: 1rem;
 }
 
 nav ul li{
     color:var(--lightColor);
+    transition: color .4s ease-out;
 }
 
 nav ul li:hover{
@@ -126,10 +128,11 @@ nav h1 span{
     background-color: var(--primaryLightColor);
     line-height: 2rem;
     color: white;
+    transition: background-color .6s ease-in-out;
 
 }
 .services div:hover{
-    background-color: #00ff84;
+    background-color: #201ad6;
     cursor: pointer;
 }
 .services div img{
@@ -147,6 +150,72 @@ nav h1 span{
 }
 .outerOfServices{
     text-align: center;
+    text-decoration: underline;
     font-size: 3rem;
     margin-top: 2rem;
+    color: var(--lightColor);
+}
+#projects{
+    height: 100vh;
+    padding: 3rem;
+}
+.contact{
+    height:100vh;
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+
+   
+}
+.contact .contactLeft{
+    
+    height: 100%;
+    width: 25%;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact .contactRight{ 
+    height: 100%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+.contact .contactRight .contactForm{
+    max-width: 40rem;   
+    width:100%; 
+    background-color: #ffff;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: .6rem;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: .4rem;
+    margin-top: .5rem;
+
+}
+button{
+    background-color: var(--primarycolor);
+    border-radius: .4rem;
+    border: none;
+    padding: 1rem 1.5rem;
+    color: #ffff;
+    cursor: pointer;
+    transition: background-color .4s ease-in-out;
+
+}
+button:hover{
+    background-color: #d47dff;
 }
