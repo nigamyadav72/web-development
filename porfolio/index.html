@@ -23,10 +23,11 @@
         
       </ul>
     </nav>
+
     <section class="hero">
       <div class="left">
         <p>My name is Nigam Yadav</p>
-        <h1>I'm a web Developer</h1>
+        <h1 id="typeWriter">I'm a web Developer</h1>
         <p>Experience in Html,CSS</p>
         <div class="socialMedia">
           <img src="./image/githubLogo.png" alt="" />
@@ -222,5 +223,23 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script>
+var app = document.getElementById('typeWriter');
+
+var typewriter = new Typewriter(app, {
+  loop: true,
+  delay: 75,
+});
+
+typewriter
+  .pauseFor(2500)
+  .typeString("I'm a Web Developer.")
+  .pauseFor(300)
+  .deleteChars(14)
+  .typeString("App Developer.")
+  .pauseFor(1000)
+  .start();
+  </script>
   </body>
 </html>
