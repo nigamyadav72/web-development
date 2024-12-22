@@ -1,0 +1,41 @@
+/* p{
+    animation: helloworld 10s ease-in-out infinite;
+}
+@keyframes helloworld{
+    0%{
+        color: blue;
+    }
+    50%{
+        color: red;
+        margin-left: 300px;
+    }
+    100%{
+        color: yellow;
+        margin-left: 800px;
+        font-size: 40px;
+    }
+} */
+.container{
+    width: 100vw;
+}
+.div1{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    animation: changeBgColor 3s ease-in-out infinite;
+}
+@keyframes changeBgColor{
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: blue;
+        /* margin-left: 100%; */
+        border: 50px solid aqua;
+    }
+    100%{
+        background-color: green;
+        /* margin-left:0%; */
+    }
+}
