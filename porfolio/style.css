@@ -72,6 +72,7 @@ nav h1 span{
 
 }
 .hero .right{
+    background-size: cover;
     height: 100%;
     width: 50%;
     display: flex;
@@ -105,9 +106,14 @@ nav h1 span{
     font: size .5rem;
 }
 .hero .right img{
-    height: 20rem;
-    width: 17rem;
+    height: 19rem;
+    width: 18rem;
+    border: .3rem solid rgb(121, 91, 91);
     border-radius: 54%;
+}
+.hero .right img:hover{
+    border: .3rem solid #ff00d9;
+    box-shadow: 0 0 .3rem #ff00d9;
 }
 .services{
     height: 100vh;
