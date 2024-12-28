@@ -28,6 +28,7 @@
 @keyframes changeBgColor{
     0%{
         background-color: red;
+        opacity: 0.5;
     }
     50%{
         background-color: blue;

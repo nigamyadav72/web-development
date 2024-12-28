@@ -11,213 +11,219 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.css">
   </head>
   <body>
-    <nav>
-      <h1>Nigam <span>Y</span></h1>
-      <ul>
-        <li>Home</li>       
-        <a href="#services"> <li>Services</li> </a>
-        <a href="#projects"> <li>Projects</li> </a>
-        <a href="#contact"> <li>Contact</li> </a>
-        
-      </ul>
-    </nav>
-
-    <section class="hero">
-      <div class="left">
-        <p>My name is Nigam Yadav</p>
-        <h1 id="typeWriter">I'm a web Developer</h1>
-        <p>Experience in Html,CSS</p>
-        <div class="socialMedia">
-          <img src="./image/githubLogo.png" alt="" />
-          <img src="./image/linkedinLogo.png" alt="" />
-          <img src="./image/twitterLogo.jpeg" alt="" />
+    <div id="main">
+      <nav>
+        <h1>Nigam <span>Y</span></h1>
+        <ul>
+          <li>Home</li>       
+          <a href="#services"> <li>Services</li> </a>
+          <a href="#projects"> <li>Projects</li> </a>
+          <a href="#contact"> <li>Contact</li> </a>
+          
+        </ul>
+        <span class="hamburger">&#9776;</span>
+      </nav>
+   
+  
+      <section class="hero">
+        <div class="left">
+          <p>My name is Nigam Yadav</p>
+          <h1 id="typeWriter">I'm a web Developer</h1>
+          <p>Experience in Html,CSS</p>
+          <div class="socialMedia">
+            <img src="./image/githubLogo.png" alt="" />
+            <img src="./image/linkedinLogo.png" alt="" />
+            <img src="./image/twitterLogo.jpeg" alt="" />
+          </div>
+          <div class="socialMediaNames">
+            <p><a href="https://github.com/nigamyadav72">Github</a></p>
+            <p>
+              <a href="https://www.linkedin.com/in/nigam-yadav-099447199/"
+                >LinkedIn</a
+              >
+            </p>
+            <p><a href="https://x.com/NIGAM22370630">Twitter</a></p>
+          </div>
         </div>
-        <div class="socialMediaNames">
-          <p><a href="https://github.com/nigamyadav72">Github</a></p>
+        <div class="right">
+          <img src="./image/new pp.png" alt="" />
+        </div>
+      </section>
+      <h1 class="outerOfServices">Services</h1>
+      <section class="services" id="services">
+        <div>
+          <img src="./image/reactLogo.png" alt="" />
+  
+          <h3>React Developer</h3>
           <p>
-            <a href="https://www.linkedin.com/in/nigam-yadav-099447199/"
-              >LinkedIn</a
-            >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            dolorem, quo similique optio assumenda dolor vero? Ullam nobis sunt
+            placeat?
           </p>
-          <p><a href="https://x.com/NIGAM22370630">Twitter</a></p>
         </div>
-      </div>
-      <div class="right">
-        <img src="./image/new pp.png" alt="" />
-      </div>
-    </section>
-    <h1 class="outerOfServices">Services</h1>
-    <section class="services" id="services">
-      <div>
-        <img src="./image/reactLogo.png" alt="" />
-
-        <h3>React Developer</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-          dolorem, quo similique optio assumenda dolor vero? Ullam nobis sunt
-          placeat?
-        </p>
-      </div>
-      <div>
-        <img src="./image/pythonLogo.jpeg" alt="" />
-        <h3>Python Developer</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
-          provident quasi reprehenderit, placeat ex atque tempore sint beatae
-          veritatis amet.
-        </p>
-      </div>
-      <div>
-        <img src="./image/cLogo.png" alt="" />
-        <h3>App Developer</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
-          explicabo incidunt ipsum officiis laboriosam quidem accusamus tenetur?
-          Nulla, itaque dolore.
-        </p>
-      </div>
-      <div>
-        <img src="./image/flutterLogo.jpeg" alt="" />
-        <h3>Flutter Developer</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-          dolorem, quo similique optio assumenda dolor vero? Ullam nobis sunt
-          placeat?
-        </p>
-      </div>
-      <div>
-        <img src="./image/javascriptLogo.jpeg" alt="" />
-        <h3>Javascript Developer</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
-          provident quasi reprehenderit, placeat ex atque tempore sint beatae
-          veritatis amet.
-        </p>
-      </div>
-      <div>
-        <img src="./image/laravelLogo.jpeg" alt="" />
-        <h3>Laravel Developer</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
-          explicabo incidunt ipsum officiis laboriosam quidem accusamus tenetur?
-          Nulla, itaque dolore.
-        </p>
-      </div>
-    </section>
-    <h1 class="outerOfServices">Projects</h1>
-
-    <section id="projects" >
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+        <div>
+          <img src="./image/pythonLogo.jpeg" alt="" />
+          <h3>Python Developer</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
+            provident quasi reprehenderit, placeat ex atque tempore sint beatae
+            veritatis amet.
+          </p>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./image/project5.png" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
+        <div>
+          <img src="./image/cLogo.png" alt="" />
+          <h3>App Developer</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
+            explicabo incidunt ipsum officiis laboriosam quidem accusamus tenetur?
+            Nulla, itaque dolore.
+          </p>
+        </div>
+        <div>
+          <img src="./image/flutterLogo.jpeg" alt="" />
+          <h3>Flutter Developer</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            dolorem, quo similique optio assumenda dolor vero? Ullam nobis sunt
+            placeat?
+          </p>
+        </div>
+        <div>
+          <img src="./image/javascriptLogo.jpeg" alt="" />
+          <h3>Javascript Developer</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
+            provident quasi reprehenderit, placeat ex atque tempore sint beatae
+            veritatis amet.
+          </p>
+        </div>
+        <div>
+          <img src="./image/laravelLogo.jpeg" alt="" />
+          <h3>Laravel Developer</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
+            explicabo incidunt ipsum officiis laboriosam quidem accusamus tenetur?
+            Nulla, itaque dolore.
+          </p>
+        </div>
+      </section>
+      <h1 class="outerOfServices">Projects</h1>
+  
+      <section id="projects" >
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./image/project5.png" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/project4.png" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/project6.png" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="./image/project4.png" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./image/project6.png" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
-            </div>
-          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-    <h1 class="outerOfServices">Contact Me</h1>
-    <section class="contact" id="contact">
-      <div class="contactLeft">
-        <h3 style="color:blueviolet;">More Info</h3>
-        <p><span style="font-weight: bold;">Email</span> : hello@gmail.com</p>
-        <P><span style="font-weight: bold;">Contact</span> : +977 9769812470</P>
-        <p><span style="font-weight: bold;">Address</span> : Rajpur-3,Dang</p>
-        
-      </div>
-
-
-      <div class="contactRight">
-       <div class="contactForm">
-        <form action="https://usebasin.com/f/d6c820e5113c" method="POST">
-          <div class="formGroup">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" />
-          </div>
-          <div class="formGroup">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" />
-          </div>
-          <div class="formGroup">
-            <label for="message">Message</label>
-            <textarea  name="message" rows="4"id="message" > </textarea>
-          </div>
-          <div class="formGroup">
-            <button type="submit">
-              Submit
-            </button>
-       </div>
-          </div>
-        </form>
-
-      </div>
-
-    </section>
+      </section>
+      <h1 class="outerOfServices">Contact Me</h1>
+      <section class="contact" id="contact">
+        <div class="contactLeft">
+          <h3 style="color:blueviolet;">More Info</h3>
+          <p><span style="font-weight: bold;">Email</span> : hello@gmail.com</p>
+          <P><span style="font-weight: bold;">Contact</span> : +977 9769812470</P>
+          <p><span style="font-weight: bold;">Address</span> : Rajpur-3,Dang</p>
+          
+        </div>
+  
+  
+        <div class="contactRight">
+         <div class="contactForm">
+          <form action="https://usebasin.com/f/d6c820e5113c" method="POST">
+            <div class="formGroup">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="formGroup">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="formGroup">
+              <label for="message">Message</label>
+              <textarea  name="message" rows="4"id="message" > </textarea>
+            </div>
+            <div class="formGroup">
+              <button type="submit">
+                Submit
+              </button>
+         </div>
+            </div>
+          </form>
+  
+        </div>
+  
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -225,6 +231,13 @@
     ></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <script>
+    import LocomotiveScroll from 'locomotive-scroll';
+
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true,
+    lerp:0,
+});
 var app = document.getElementById('typeWriter');
 
 var typewriter = new Typewriter(app, {
