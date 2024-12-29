@@ -24,18 +24,19 @@
 // const isNepali = true
 // const age = 22
 
-var names = ["ram","shyam","hari"]//array declaration
-console.log(names.length)//here length is a property 
-names.push("sita")//push is a method that enter element at last of array
-console.log(names)
-names.pop()//pop is a method that removes last element from array
-console.log(names)
-names.shift()//shift is a method that removes first element from array
-console.log(names)
-names.unshift("sita")//unshift is a method that enter element at first of array
-console.log(names)
-names.reverse()//reverse is a method that reverse the array
-console.log(names)
+var names = ["ram","shyam","hari",12]//array declaration
+console.log(names.includes(12))//kunai value xa ki xaina vanera check garxa
+// console.log(names.length)//here length is a property 
+// names.push("sita")//push is a method that enter element at last of array
+// console.log(names)
+// names.pop()//pop is a method that removes last element from array
+// console.log(names)
+// names.shift()//shift is a method that removes first element from array
+// console.log(names)
+// names.unshift("sita")//unshift is a method that enter element at first of array
+// console.log(names)
+// names.reverse()//reverse is a method that reverse the array
+// console.log(names)
 // console.log(names[0])
 // console.log(names[1])
 // console.log(names[2])
@@ -48,6 +49,7 @@ console.log(names)
 //     age : 22,
 //     address : "dharan"
 // }
+// Object.freeze(person1)//freeze is a method that prevent object from changing
 // person1.name = "manish basnet"
 
 // console.log(person1.name)
