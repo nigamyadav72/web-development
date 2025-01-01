@@ -250,10 +250,7 @@
 
 
 
-//here we use ... called spread/rest operator used to copy array or merge more array into one 
+// here we use ... called spread/rest operator used to copy array or merge more array into one 
 // const numbers = [1,2,3,4,5,6,7,8,9]
 // const numbersCopy = [...numbers]
 // console.log(numbersCopy)
-
-
-
